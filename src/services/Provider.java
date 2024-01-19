@@ -29,7 +29,7 @@ public class Provider {
 		if (!itemPrices.containsKey(item))
 			throw new UnknownItemException("Item " + item + " is not an item delivered by this provider.");
 
-		Double price = (Double) itemPrices.get(item);
+		Double price = (Double) itemPlrices.get(item);
 		return price.doubleValue();
 	}
 

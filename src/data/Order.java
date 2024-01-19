@@ -3,10 +3,10 @@ package estore.services.implem.src.data;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 
+import estore.services.implem.src.services.Client;
 import estorePojo.exceptions.UnknownItemException;
 
 public class Order {
